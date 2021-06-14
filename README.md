@@ -1,4 +1,3 @@
-# JavaScript-Cursos
 # Aquí mi apuntes de JavaScript
 ## Funciones
 Hay dos tippos de funciones, funciones declarativas y funciones de expresión o anónimas
@@ -32,9 +31,13 @@ Los parámetros es cuando se hace llamar a la función, los valores en sí
 En este caso, el atributo es Estudiante y el parámetro es "Raúl"
 ## Booleanos
 Con la función Boolean() se puede comprobar el valor booleano del parámetro.
+
 Por defecto, los valores false son:
+
     0 , null , NaN , undefined , false , ""
+
 Por defecto los valores true son :
+
     Cualquier número distinto de 0 , Cualquier string con al menos un valor , [] , {} , true
 
 
