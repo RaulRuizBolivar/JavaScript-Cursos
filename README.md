@@ -1,6 +1,41 @@
 # Aquí mi apuntes de JavaScript
+
+## Hoisting
+Hoisting es el orden en el que se almacena en memoria los datos.
+
+Si se hace llamar a una variable antes de inicializarla, su valor será undefined
+
+    console.log(miNombre);
+    var miNombre = "Raúl";
+
+En este ejemplo, cuando  se ejecuta console.log(), miNombre no se ha inicializado, por lo que se inicializa como undefined, y en la siguiente línea se le asigna el valor de "Raúl"
+Las funciones no tienen este comportamiento, ya que se cargan en memoria enteras, no solo la declaración, por lo que el suiguiente ejemplo funciona esté donde esté el llamado a la función
+
+    hey();
+    function hey(){
+        console.log("Algo")
+    }
+
+Al igual que en el scope global, si se llama desde una función a una variable que aún no ha sido inicializada, su valor será de undefined:
+
+    hey();
+    function hey(){
+        console.log("Algo " + miNombre);
+    }
+    var miNombre = "Raúl";
+    //El resultado es Algo undefined
+    
+    var miNombre = "Raúl";
+    hey();
+    function hey(){
+        console.log("Algo " + miNombre);
+    }
+    //El resultado es Algo Raúl
+
+Por buenas prácticas, todas las funciones se declaran al principio del código, así las variables que están declaradas siempre ostarán inicializadas antes de llamarla.
+
 ## Funciones
-Hay dos tippos de funciones, funciones declarativas y funciones de expresión o anónimas
+Hay dos tipos de funciones, funciones declarativas y funciones de expresión o anónimas
 
 ### Funciones Declarativas
 
