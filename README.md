@@ -1,5 +1,21 @@
 # Aquí mi apuntes de JavaScript
 
+## Operadores
+
+### Operadores Binarios
+* + Suma dos valores, en caso de uno ser un string, concatena
+* - Resta
+* * Multiplica
+* / Divide
+### Operador de asignación
+* = Asigna un valor
+### Operadores de comparación
+* == Compara el contenido de dos valores, sin mirar el tipo
+* === Compara el contenido y el tipo de un valor, de forma estricta
+* < Compara dos números, si el primero es menor que el segundo, es true
+### Operadores Lógicos
+### Operadores Incrementales
+
 ## Hoisting
 Hoisting es el orden en el que se almacena en memoria los datos.
 
