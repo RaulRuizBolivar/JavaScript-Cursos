@@ -17,7 +17,12 @@
 * (>=) Compara dos números, si el primero es mayor o igual que el segundo, es true
 * (>) Compara dos números, si el primero es mayor que el segundo, es true
 ### Operadores Lógicos
+* (!) Negación, niega lo que le sigue (!true -> false)
+* (&&) Signo AND
+* (||) Signo OR
 ### Operadores Incrementales
+* (++) Incrementa el valor en uno, si es antes del valor, se añade antes de la asignación, si no, después
+* (+=) Incrementa con el valor que se le indica después el valor de lo que le precede
 
 ## Hoisting
 Hoisting es el orden en el que se almacena en memoria los datos.
