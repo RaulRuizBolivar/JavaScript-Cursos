@@ -13,6 +13,9 @@
 * (==) Compara el contenido de dos valores, sin mirar el tipo
 * (===) Compara el contenido y el tipo de un valor, de forma estricta
 * (<) Compara dos números, si el primero es menor que el segundo, es true
+* (<=) Compara dos números, si el primero es menor o igual que el segundo, es true
+* (>=) Compara dos números, si el primero es mayor o igual que el segundo, es true
+* (>) Compara dos números, si el primero es mayor que el segundo, es true
 ### Operadores Lógicos
 ### Operadores Incrementales
 
