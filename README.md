@@ -1,5 +1,22 @@
 # Aquí mi apuntes de JavaScript
 
+## Variables
+
+Una variable en un contenedor de un dato que se guardo en un valor en memoria.
+La palabra reservada para inicializar una variable es var.
+
+    var nombre = "Raúl";
+
+Esta es la estructura para inicializar y declarar una variable
+Las variables se inicializan dándoles un nombre, y se declaran asignándoles un valor
+
+    //Inicializar una variable
+    var edad;
+    //Declarar una variable
+    edad = 30;
+
+Hasta que no se declara una variable, su valor en undefined
+
 ## Operadores
 
 ### Operadores Binarios
