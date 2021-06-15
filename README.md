@@ -143,3 +143,20 @@ En este ejemplo, d vale "23"
     var e = Number("123");
 
 En este ejemplo, e vale 123
+
+## Condicionales
+
+Los condicionales son las reglas por las cuales se va a elegir qué bloque de código se ejecuta dependiendo de si es verdadera o falsa una condición.
+
+### if
+La estructura es la siguiente:
+
+    if(condición){
+        "Bloque de código a ejecutar si la condición es verdadera"
+    } esle {
+        "Bloque de código a ejecutar si la condición es falsa"
+    }
+
+Existe un operador ternario, en el que se hace un if en una sola línea, se hace de la siguiente manera:
+
+    condición ? true : false;
