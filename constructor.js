@@ -4,5 +4,6 @@ function auto ( marca , modelo , annio ) {
   this.annio  = annio;
 }
 
-var miAuto = new auto("marca", "modelo", "annio");
-console.log( miAuto );
+var miAuto = new auto("Tesla", "Model 3", 2020);
+var autoRober = new auto( "Citroen" , "C3" , 2019 )
+console.log( miAuto,autoRober );
